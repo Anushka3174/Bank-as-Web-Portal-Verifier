@@ -25,7 +25,7 @@ const LoanPage = () => {
             >
                 <Meta title="Applying for Loan"
                       description=""/>
-                <p style={{marginTop:"10px"}}> Please submit your BankId, Employment Certificate and NAV certificate</p>
+                <p style={{marginTop:"10px"}}> Please submit your BankId, Employment Certificate and tax certificate</p>
                 <a href={'http://localhost:3001/share-credentials?token='+context.requestToken} target='_blank' rel="noopener noreferrer"> Click here!</a>
 
 
