@@ -13,7 +13,7 @@ const CreateToken = (props) => {
                         defaultValue={['NorwegianBankIDV3']}
                         onChange={props.handleChangeToken}
                     >
-                        <Option value="NorwegianNavcertificate">Norwegian NAV Certificate</Option>
+                        <Option value="TaxCertificateNorway5">Norwegian Tax Certificate</Option>
                         <Option value="EmploymentCredentialPersonV1">Employment Credential</Option>
                         <Option value="NorwegianBankIDV3">Norwegian Bank ID</Option>
                     </Select>

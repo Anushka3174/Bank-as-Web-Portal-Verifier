@@ -53,8 +53,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Running the application
 
 1. Run with npm
-`npm start` and opens 
-2. The web app will run on 'http://localhost:3002/' (assuming that the issuer and holder application is running on PORT 3000 and 3001 respectively). Two login screens can be will be seen as shown in the ![figure](assets/WalletCredentials.PNG).
+`npm start` and opens
+2. The web app will run on 'http://localhost:3002/' (assuming that the issuer and holder application is running on PORT 3000 and 3001 respectively). Two login screens can be will be seen as shown in the ![figure](assets/VerifierLogin123.PNG).
 3. Create an account through the 'Sign Up' menu on the top right or use the given credential: Username:Bankasverifier Password: Pass1234 for verifier portal and Username:applicantHolder Password: Pass1234 for user portal.
 4. When logged in as the verifier, you can set the document criteria for the loan function and also check the authenticity of the submitted document token.
 5. When logged in as the user, they can select the required feature which then redirects user to the holder wallet running on PORT 3001. Here user can select the  required documents and create a token which can be copied and sent to a verifier where its authentication is verified.

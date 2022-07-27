@@ -93,13 +93,13 @@ const Verifier = () => {
         try {
 
             const {credentialShareRequest, errors} = await ApiService.createSharedRequestToken(credentialRequirements);
+            console.log("this is credentialSharedRequest", credentialShareRequest)
             if( credentialShareRequest ) {
                 let payload:any={requirements:credentialShareRequest.payload.interactionToken.credentialRequirements}
                 const tokenResponse= await ApiService.generateSharedRequestToken(payload);
-             console.log("this is the response",tokenResponse)
                 setShareCredRequestToken(tokenResponse)
                 Context.setrequestToken(tokenResponse)
-                alert('Signed VC successfully verified.');
+                alert('Signed VC successfully verified. Automatically set on the user portal');
             }else {
                 ApiService.alertWithBrowserConsole(errors, 'Shared request token created successfully')
             }
